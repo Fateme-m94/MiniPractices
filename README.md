@@ -1,3 +1,3 @@
 # MiniPractices
 
-# it contains Digital clock , temperature conversion , Roll dice, And StopWatch programs.
+# It contains Digital clock, temperature conversion, Roll dice, and StopWatch programs.
