@@ -1,0 +1,229 @@
+body{
+    background-color: rgb(233, 233, 233);
+}
+
+form{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 1em;
+   background-color: rgb(148, 145, 145);
+   text-align: center;
+   max-width: 350px;
+   margin: auto;
+   padding: 25px;
+   border-radius: 15px;
+   box-shadow: 5px 5px 20px rgb(196, 48, 48);
+}
+
+#myh1element{
+   color: rgb(83, 18, 189);
+}
+
+#text3{
+    width: 50%;
+    text-align: center;
+    font-size: 2em;
+    border: 2px solid rgb(51, 50, 50);
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+#label1{
+    font-size: 1em;
+    font-weight: bold;
+}
+
+#btn1{
+    margin-top: 15px;
+    border-radius: 5px;
+    background-color: brown;
+    font-size: 1.5em;
+    pad: 10px 15px;
+    color: beige;
+    cursor: pointer;
+}
+
+#btn1:hover{
+    background-color: rgb(126, 22, 22);
+}
+
+#result{
+    font-size: 1.75em;
+    font-weight: bold;
+}
+
+.container {
+  display: inline-block;
+  cursor: pointer;
+}
+
+#countlabel{
+    display: block;
+    text-align: center;
+    font-family: helvitica;
+    font-size: 5em;
+}
+
+#btncontainer{
+    text-align: center;
+}
+
+.btn{
+    padding: 10px 20px;
+    font-size: 1.5em;
+    color: beige;
+    background-color: blueviolet;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+
+.btn:hover{
+    background-color: rgb(72, 12, 129);
+}
+
+#container{
+    font-family: arial , sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+    background-color: rgb(146, 211, 211);
+    max-width: 500px;
+    margin: auto;
+    padding: 25px;
+    border-radius: 20px;
+}
+
+#btn2{
+    font-weight: 1.5em;
+    padding: 10px 15px;
+    font-weight: bold;
+    border-radius: 7px;
+    border: none;
+    background-color: rgb(105, 103, 107);
+    color: aliceblue;
+    cursor: pointer;
+}
+
+#btn2:hover{
+    background-color: rgb(76, 75, 72);
+}
+
+#btn2:active{
+    background-color: rgb(80, 75, 60);
+}
+
+#input1{
+    font-size: 1.5rem;
+    width: 150px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+#diceresult{
+    margin: 25px;
+}
+
+#diceimages img{
+    width: 100px;
+    margin: 5px;
+}
+
+#clock-container{
+    display: flex;
+    font-size: 3em;
+    justify-content: center;
+    height: 50vh;
+    border:2px solid;
+    align-items: center;
+    background-image: url(img4.jpg);
+    margin: 1em;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#clock{
+    font-family: monospace;
+    font-size: 6.5rem;
+    font-weight: bold;
+    text-align: center;
+    backdrop-filter: blur(5px);
+    color: blanchedalmond;
+}
+
+#containerstopwach{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(173, 154, 131);
+    border:  gray;
+    font-weight: bold;
+    color: black;
+    border-radius: 15px;
+    margin: 2rem auto;
+    max-width: 500px;
+    width: 90%; /* برای موبایل */
+    box-sizing: border-box;
+}
+
+#mystopwatch{
+    font-size: 3em;
+    font-family: "Arial", sans-serif;
+}
+
+#timerbtn{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    
+    background-color: rgb(235, 221, 221);
+    font-weight: bold;
+    border-radius: 15px;
+    margin: 1.5rem;
+    padding: 1rem;
+}
+
+#display{
+    font-size: 3.5rem;
+    font-family: monospace;
+    font-weight: bold;
+    color: hsl(0, 2%, 18%);
+    text-shadow: 2px 2px 2px black;
+    margin-bottom: 30px;
+}
+
+#controls button{
+    
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.5s ease;
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    min-width: auto;
+    width: 100px; /* دکمه‌ها توی موبایل عرض کامل بگیرن */
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+#startbtn{
+    background-color: rgb(52, 201, 52);
+}
+#stopbtn{
+    background-color: rgb(233, 59, 59);
+}
+#resetbtn{
+    background-color: rgb(73, 73, 160);
+    flex-wrap:wrap-reverse
+}
+
+@media (min-width: 768px) {
+  #controls button {
+    font-size: 1.25rem;
+    width: auto;
+  }
+}

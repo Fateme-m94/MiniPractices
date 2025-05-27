@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MiniProjects</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="clock-container">
+        <div id="clock">00:00:00</div>
+    </div>
+
+    <div style="display: flex; flex-direction: row;">
+    <form id="form1">
+        <h1 id="myh1element">Temprature conversion:</h1>
+        <input type="number" id="text3" value="0"><br>
+
+        <input type="radio" id="tofahrenhait" name="unit">
+        <label for="tofahrenhaitfa" id="label1">Celcius 👉 fahrenhait </label><br>
+
+        <input type="radio" id="tocelsius" name="unit">
+        <label for="tocelsius" id="label1"> fahrenhait 👉 Celcius</label><br>
+
+        <button type="button" id="btn1" onclick="convert()">Submit</button>
+        <p id="result"></p>
+    </form><br><br>
+    
+
+    <div id="containerstopwach">
+    <h1 id="mystopwatch">StopWatch</h1>
+    <div id="timerbtn">
+        <div id="display">00:00:00:00</div>
+        <div id="controls">
+            <button id="startbtn" onclick="startwatch()">start</button>
+            <button id="stopbtn" onclick="stopwatch()">stop</button>
+            <button id="resetbtn" onclick="resetwatch()">reset</button>
+        </div>
+    </div>
+</div>
+   
+</div><br><br>
+    
+      <div id="container">
+        <h1>Dice roller</h1>
+        <label for=""># of dice:</label>
+        <input id="input1" type="number" value="1" min="1">
+        <button id="btn2"  onclick="RollDice()">Roll of Dice</button>
+        <div id="diceresult"></div>
+        <div id="diceimages"></div>
+      </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
